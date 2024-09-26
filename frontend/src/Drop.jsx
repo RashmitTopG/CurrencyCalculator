@@ -24,30 +24,56 @@ export function Drop() {
           Euro: 1 / 88.5,
           "Pound Sterling": 1 / 102,
           Rand: 1 / 4.4,
+          Dirham: 1 / 22.6,
+          Dinar: 1 / 272.6,
         },
         "American Dollar": {
           "Indian Rupee": 83,
           Euro: 0.93,
           "Pound Sterling": 0.8,
           Rand: 19.1,
+          Dirham: 3.67,
+          Dinar: 0.3,
         },
         Euro: {
           "Indian Rupee": 88.5,
           "American Dollar": 1.07,
           "Pound Sterling": 0.86,
           Rand: 20.5,
+          Dirham: 3.95,
+          Dinar: 0.32,
         },
         "Pound Sterling": {
           "Indian Rupee": 102,
           "American Dollar": 1.25,
           Euro: 1.17,
           Rand: 23.8,
+          Dirham: 4.59,
+          Dinar: 0.38,
         },
         Rand: {
           "Indian Rupee": 4.4,
           "American Dollar": 1 / 19.1,
           Euro: 1 / 20.5,
           "Pound Sterling": 1 / 23.8,
+          Dirham: 1 / 5.2,
+          Dinar: 1 / 71.5,
+        },
+        Dirham: {
+          "Indian Rupee": 22.6,
+          "American Dollar": 1 / 3.67,
+          Euro: 1 / 3.95,
+          "Pound Sterling": 1 / 4.59,
+          Rand: 5.2,
+          Dinar: 1 / 13.8,
+        },
+        Dinar: {
+          "Indian Rupee": 272.6,
+          "American Dollar": 3.3,
+          Euro: 3.12,
+          "Pound Sterling": 2.65,
+          Rand: 71.5,
+          Dirham: 13.8,
         },
       };
 
@@ -110,6 +136,8 @@ export function Drop() {
             <option value="Euro">Euro</option>
             <option value="Pound Sterling">Pound Sterling</option>
             <option value="Rand">Rand</option>
+            <option value="Dirham">Dirham</option>
+            <option value="Dinar">Dinar</option>
           </select>
         </div>
         <div className="mb-4">
@@ -133,6 +161,8 @@ export function Drop() {
             <option value="Euro">Euro</option>
             <option value="Pound Sterling">Pound Sterling</option>
             <option value="Rand">Rand</option>
+            <option value="Dirham">Dirham</option>
+            <option value="Dinar">Dinar</option>
           </select>
         </div>
         <div className="flex justify-center">
